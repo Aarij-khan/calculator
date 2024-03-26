@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div id="heading">
+        <h1>
+            <span id="one">S</span><span id="two">i</span><span id="three">m</span><span id="four">p</span><span id="five">l</span><span id="six">e</span>
+            <span>Calculator</span>
+        </h1>
+    </div>
+    <div class="box">
+        <div id="input"></div>
+    </div>
+    <table>
+        <tr>
+            <td onclick="allclear()">C</td>
+            <td>+/-</td>
+            <td onclick="lessone()">X</td>
+            <td onclick="keypress('/')">/</td>
+        </tr>
+        <tr>
+            <td onclick="keypress('7')">7</td>
+            <td onclick="keypress('8')">8</td>
+            <td onclick="keypress('9')">9</td>
+            <td onclick="keypress('*')">*</td>
+        </tr>
+        <tr>
+            <td onclick="keypress('4')">4</td>
+            <td onclick="keypress('5')">5</td>
+            <td onclick="keypress('6')">6</td>
+            <td onclick="keypress('-')">-</td>
+        </tr>
+        <tr>
+            <td onclick="keypress('1')">1</td>
+            <td onclick="keypress('2')">2</td>
+            <td onclick="keypress('3')">3</td>
+            <td onclick="keypress('+')">+</td>
+        </tr>
+        <tr>
+            <td onclick="allclear()">CE</td>
+            <td onclick="keypress('0')">0</td>
+            <td onclick="keypress('.')">.</td>
+            <td onclick="equal()">=</td>
+        </tr>
+        
+    </table>
+    
+
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>
